@@ -16,35 +16,35 @@
 							<span class="date">21 ARALIK 2022</span>
 							<h2><a href="#">Tanıtım Sayfası</a></h2>
 							<p>Projeyi oluşturmak için Python Django'yu kullandım.Django'da bir proje oluşturmak için terminale <br>
-                            django-admin startproject movie_app<br>
-                            yazarak Django projesini başlatıyoruz.</p><br><br>
-                            <p>Terminalimizden yeni açmış olduğumuz "movie_app" dosyasının içine girip terminale<br>
-                            python manage.py startapp movies <br>
-                            yazıyoruz. Proje klasörümüzde "moveis" isimli app'i oluşturduk. Şuanda "movie_app" klasörümüz projemizin ana uygulama klasörüdür ve 
-                            "moveis" klasörü ise genel olarak projemizin ayarları ile alakalı klasördür.Bizim "movies" klasöründe çalışabilmemiz için bu app'i 
-                            ana uygulama klasörüne yani "movie_app" e tanıtamız gerekiyor.Bunun için "movie_app" klasöründeki "settings.py" klasörünü açıyoruz ve
-                            içindeki "INSTALLED_APPS" listesine geliyoruz. Buraya "movies" klasörümüzü görseldeki şekilde tanıtıyoruz.<br></p>
-                            <img src="./resimler/1.png">
-                            <p>Artık uygulamayı geliştirmeye başlayabiliriz.<br>
-                            Projemizdeki url'leri kullanabilmek için öncelikle "movie_app" klasöründeki urls.py dosyasına girip "movies" app'imizi 
-                            oraya eklememiz gerek. Aşağıdaki şekilde ekliyoruz.</p>  
-                            <img src="./resimler/2.png">
-                            <p>Artık uygulamamızdaki çalışacağımız linkleri tanıtacağımız kısıma gelelim. Şimdi "movie_app" e tanıttığımız "moveis" 
-                                klasörüne "urls.py" dosyası oluşturuyoruz ve bu dosyaya uygulamamızda kullanacağımız sayfaların url'lerini tanıtacağız.
-                                Bu klasörde aşağıdaki şekilde sayfalarımızın path lerini yazmamız gerekiyor. 
-                            </p>
-                            <img src="./resimler/3.png">
-                            <p>Bizim projemizdeki aradaki tanıtma işlemlerini geçiyoruz ve klasörlerden son hallerini açıklayarak devam edeceğiz.
-                            Aşağıdaki "moveis" klasörümüzün "urls.py" dosyasında "path" olarak tanıttığımız "views" ler bizi HTML sayfalarımızdaki 
-                            sonuçlara götürüyor. 
-                            <img src="./resimler/4.png">
-                            <p>Şimdide yine "movies" klasörümüzün "views.py" dosyasında gidiyoruz ve burada tanımladığımız sınıflar ve Django nun 
-                            içinde gelen "SQLite" veritabanına dayanan ama "SQL" komutları olmadan yazdığımız tanıtımlar sayesinde "class" larımızdaki
-                            sayfalara yine djangonun içinde kurulu olarak gelen "admin" app'ını aktifleştirerek superuser oluşturduktan sonra uygulama url
-                            'mizin yanına "/admin" yazarak admin giriş sayfasına geliyoruz ve önceden tanımlamış olduğumuz kullanıcı adı "admin" 
-                            şifresi "123456" olan kullanıcıya girerek oluşturmuş olduğumuz "Filmler" ve "Kategoriler" bölümlerinde sayfamıza aktif olarak 
-                            ekleme yapabiliyoruz. </p>
-                            </p> 
+							<u>django-admin startproject movie_app </u><br>
+                            				yazarak Django projesini başlatıyoruz.</p><br><br>
+                            				<p>Terminalimizden yeni açmış olduğumuz "movie_app" dosyasının içine girip terminale<br>
+							<u>python manage.py startapp movies </u>  <br>
+                            				yazıyoruz. Proje klasörümüzde "moveis" isimli app'i oluşturduk. Şuanda "movie_app" klasörümüz projemizin ana uygulama klasörüdür ve 
+                            				"moveis" klasörü ise genel olarak projemizin ayarları ile alakalı klasördür.Bizim "movies" klasöründe çalışabilmemiz için bu app'i 
+                            				ana uygulama klasörüne yani "movie_app" e tanıtamız gerekiyor.Bunun için "movie_app" klasöründeki "settings.py" klasörünü açıyoruz ve
+                            				içindeki "INSTALLED_APPS" listesine geliyoruz. Buraya "movies" klasörümüzü görseldeki şekilde tanıtıyoruz.<br></p>
+                            				<img src="./resimler/1.png">
+                            				<p>Artık uygulamayı geliştirmeye başlayabiliriz.<br>
+                            				Projemizdeki url'leri kullanabilmek için öncelikle "movie_app" klasöründeki urls.py dosyasına girip "movies" app'imizi 
+                            				oraya eklememiz gerek. Aşağıdaki şekilde ekliyoruz.</p>  
+                            				<img src="./resimler/2.png">
+                            				<p>Artık uygulamamızdaki çalışacağımız linkleri tanıtacağımız kısıma gelelim. Şimdi "movie_app" e tanıttığımız "moveis" 
+                                			klasörüne "urls.py" dosyası oluşturuyoruz ve bu dosyaya uygulamamızda kullanacağımız sayfaların url'lerini tanıtacağız.
+                               				Bu klasörde aşağıdaki şekilde sayfalarımızın path lerini yazmamız gerekiyor. 
+							</p>
+							<img src="./resimler/3.png">
+							<p>Bizim projemizdeki aradaki tanıtma işlemlerini geçiyoruz ve klasörlerden son hallerini açıklayarak devam edeceğiz.
+							Aşağıdaki "moveis" klasörümüzün "urls.py" dosyasında "path" olarak tanıttığımız "views" ler bizi HTML sayfalarımızdaki 
+							sonuçlara götürüyor. 
+							<img src="./resimler/4.png">
+							<p>Şimdide yine "movies" klasörümüzün "views.py" dosyasında gidiyoruz ve burada tanımladığımız sınıflar ve Django nun 
+							içinde gelen "SQLite" veritabanına dayanan ama "SQL" komutları olmadan yazdığımız tanıtımlar sayesinde "class" larımızdaki
+							sayfalara yine djangonun içinde kurulu olarak gelen "admin" app'ını aktifleştirerek superuser oluşturduktan sonra uygulama url
+							'mizin yanına "/admin" yazarak admin giriş sayfasına geliyoruz ve önceden tanımlamış olduğumuz kullanıcı adı "admin" 
+							şifresi "123456" olan kullanıcıya girerek oluşturmuş olduğumuz "Filmler" ve "Kategoriler" bölümlerinde sayfamıza aktif olarak 
+							ekleme yapabiliyoruz. </p>
+							</p> 
 						</header>
 					</article>
 				</div>
